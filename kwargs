@@ -1,0 +1,14 @@
+##example: takes *args and **kwargs
+
+def echo(*args, **kwargs):
+    print args
+    print kwargs
+
+    print "_____\n"
+    #print 1 argument per line
+    for i in args:
+        print i
+    for key in kwargs
+        print key, kwargs[key]
+
+echo("mySphere", 
